@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.form input,
+.form textarea{
+  display: block;
+  width: 80%; /*Tamaño del div que lo contiene*/
+  max-width: 300px;
+  margin: 15px auto; /*auto para que centre los elementos*/
+  padding: 10px;
+}
+
+.form input[type="submit"]{
+  width: 100px;
+  cursor: pointer;
+  margin-bottom: 100px;
+  background-color: green;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+}
+
+.form input[type="submit"]:hover{
+  background-color: rgb(4, 207, 4);
+  color: black;
+  font-weight: bold;
+}
+
+pre { 
+  font-size: 15px;
+}
+
+.enviado{
+  background-color: green;
+  padding: 5px;
+}
